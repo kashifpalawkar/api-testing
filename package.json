@@ -1,0 +1,13 @@
+{
+  "name": "apitesting",
+  "version": "1.0.0",
+  "description": "Project for testing overlay api",
+  "scripts": {
+    "api-test-stage": "newman run OLapitestcollections/OLAPI_Testing.postman_collection.json"
+  },
+  "author": "kashif",
+  
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
